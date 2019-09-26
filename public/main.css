@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-  background-color: #edeff4;
-  color: #A65362;
+  background-color: #4a7e5c;
+  color: #edae38;
   font-family: 'Roboto', san-serif;
 }
 
@@ -15,11 +15,11 @@ body {
 
 .link {
   text-decoration: none;
-  color: #488096;
+  color: #edeff4;
 }
 
 .link:hover {
-  color: #488096;
+  color: #edeff4;
   text-decoration: underline;
 }
 
@@ -39,6 +39,34 @@ body {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  width: 65%;
+}
+
+.work-list {
+  width: 100%;
+  margin-top: 25vh;
+}
+
+.work-list h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.work-list div:last-of-type {
+  margin-bottom: 50vh;
+}
+
+.work-list p {
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.poems {
+  line-height: 2em;
+}
+
+.poems .poem p:last-of-type {
+  margin-bottom: 25vh;
 }
 
 .About {
