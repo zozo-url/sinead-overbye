@@ -1,7 +1,6 @@
 import React from 'react';
-import Nav from './Nav'
 
-const About =  () =>{
+const About =  (props) =>{
   return (
     <div className="About">
         <h1>photo here</h1>
