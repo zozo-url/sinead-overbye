@@ -1,10 +1,11 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Nav =  () =>{
   return (
     <div className="Nav">
-        <h1>SINEAD OVERBYE</h1>
-        <h1>WORKS</h1>
+        <Link to="/"><h3>SINEAD OVERBYE</h3></Link>
+        <Link to="/works"><h3>WORKS</h3></Link>
     </div>
   )
 }
