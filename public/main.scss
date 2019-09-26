@@ -79,10 +79,11 @@ line-height: 2em;
     background-color: $two !important;
     color: $four;
 }
-// .scroll-up-animation {
-//     transition: ease-in-out !important;
-//     transition-duration: 1000ms !important;
-// }
+@media only screen and (max-width: 768px) {
+    .Works {
+        width: 75%;
+    }
+}
 
 .About {
     @include centerWidth();

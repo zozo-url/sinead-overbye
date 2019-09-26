@@ -79,6 +79,12 @@ body {
   color: #edeff4;
 }
 
+@media only screen and (max-width: 768px) {
+  .Works {
+    width: 75%;
+  }
+}
+
 .About {
   width: 50%;
   margin: 0 auto;
