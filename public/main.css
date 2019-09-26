@@ -58,7 +58,6 @@ body {
 
 .work-list p {
   font-size: 1em;
-  text-decoration: underline;
 }
 
 .poems {
@@ -67,6 +66,17 @@ body {
 
 .poems .poem p:last-of-type {
   margin-bottom: 25vh;
+}
+
+.scroll-up-button {
+  width: 5%;
+  border-radius: 100px;
+  margin: 4em;
+  padding: 2em !important;
+  text-align: center;
+  padding: 20px;
+  background-color: #edae38 !important;
+  color: #edeff4;
 }
 
 .About {
