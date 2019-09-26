@@ -1,11 +1,15 @@
-import React from 'react';
+import React from 'react'
+import sinead from '../ss.jpg'
 
 const About =  (props) =>{
   return (
     <div className="About">
-        <h1>photo here</h1>
-        <p>description of work</p>
-        <p>social media links</p>
+        <div>
+          <img src={sinead} alt="Sinead Overbye" />
+          </div>
+        <div>
+          <p>description of work</p>
+        <p>social media links</p></div>
     </div>
   )
 }
