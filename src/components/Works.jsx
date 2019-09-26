@@ -10,7 +10,7 @@ const Works =  (props) =>{
       <ScrollUpButton 
       ContainerClassName="scroll-up-button"
       TransitionClassName='scroll-up-animation'
-      ShowAtPosition="550"
+      ShowAtPosition="850"
       EasingType="linear"
       AnimationDuration="1000"
       />
