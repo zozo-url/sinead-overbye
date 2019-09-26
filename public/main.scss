@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+$one: #8C867B;
+$two: #A65362;
+$three: #366273;
+$four: rgb(237, 239, 244);
+$five: #0F2617;
+
+body {
+    background-color: $four;
+    color: $two;
+    font-family: 'Roboto', san-serif;
+}
+
+@mixin centerWidth () {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    }
+@mixin centerHeight () {
+    }
+
+    
+.Home {
+    @include centerWidth();
+    height: 100vh;
+}
