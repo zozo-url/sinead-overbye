@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 $one: #8C867B;
 $two: #A65362;
-$three: #366273;
+$three: #488096;
 $four: rgb(237, 239, 244);
-$five: #0F2617;
+$five: rgb(74, 126, 92);
 
 body {
     background-color: $four;
@@ -16,11 +16,19 @@ body {
     margin: 0 auto;
     text-align: center;
     }
-@mixin centerHeight () {
-    }
 
     
 .Home {
     @include centerWidth();
-    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.link {
+    text-decoration: none;
+    color: $three;
+    &:hover {
+        color: $three;
+        text-decoration: underline;
+    }
 }
