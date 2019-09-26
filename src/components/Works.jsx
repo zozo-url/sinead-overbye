@@ -1,7 +1,6 @@
 import React from 'react';
 import data from '../poems.json'
-// 
-
+import ReactHtmlParser from 'react-html-parser'
 const Works =  (props) =>{
   return (
     <div className="Works">
@@ -11,16 +10,13 @@ const Works =  (props) =>{
             <p>{poem.title}</p>
           </div>
         })}
-                {data.poems.map((poem, index) => {
+        {data.poems.map((poem, index) => {
           return <div>
             <h1>{poem.title}</h1>
-            <p>{poem.year} published by: {poem.publisher}</p>
-            <p>{poem.poem}</p>
+            <p>{poem.publisher}, {poem.year}</p>
+            <p>{ReactHtmlParser(poem.poem)}</p>
           </div>
         })}
-        {/* <p>mapped through list of works</p>
-        <p> mapped through works </p>
-        <p> scroll to top button </p> */}
     </div>
   )
 }
