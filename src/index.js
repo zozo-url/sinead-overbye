@@ -1,5 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App.jsx';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App.jsx";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { Provider, Client, defaultExchanges } from "urql";
+
+const client = new Client({
+  url: "http://localhost:4000",
+  exchanges: defaultExchanges
+});
+
+ReactDOM.render(
+  <Provider value={client}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
