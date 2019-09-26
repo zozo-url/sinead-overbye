@@ -1,10 +1,13 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
-const Nav =  () =>{
+const Nav =  (props) =>{
   return (
     <div className="Nav">
-        <h1>SINEAD OVERBYE</h1>
-        <h1>WORKS</h1>
+        <Link to="/"  className="link"><h2>sinead overbye</h2></Link>
+        {props.match.url === "/works" ? 
+        <Link to="/about" className="link"><h2>about</h2></Link> : 
+        <Link to="/works" className="link"><h2>works</h2></Link>}
     </div>
   )
 }
