@@ -42,9 +42,15 @@ body {
   display: inline;
 }
 
+.Nav .nav-link {
+  text-decoration: none;
+  color: #EFAD43;
+}
+
 .Nav .nav-title {
   font-size: 2em;
   display: inline;
+  text-decoration: none;
 }
 
 .Works {

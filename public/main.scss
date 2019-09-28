@@ -29,7 +29,6 @@ body {
     width: 100%;
     position: fixed;
 }
-
 .link {
     text-decoration: none;
     color: $four;
@@ -52,9 +51,14 @@ body {
         position: relative;
         display: inline;
     }
+.nav-link {
+    text-decoration: none;
+    color: $two;
+}
     .nav-title {
         font-size: 2em;
         display: inline;
+        text-decoration: none;
     }
 }
 
