@@ -17,14 +17,14 @@ const Works =  (props) =>{
     <div className="Works">
       <div className="work-list">
         <h1>Works</h1>
-        {data.poems.map((poem, index) => {
+        {data.poems.reverse().map((poem, index) => {
           return <div>
             <Link to ={"/works#" + poem.title} className="link"><p>{poem.title}</p></Link>
           </div>
         })}
       </div>
         <div className="poems">
-        {data.poems.map((poem, index) => {
+        {data.poems.reverse().map((poem, index) => {
             return <div>
               <p id={poem.title}></p>
               <p><br/></p>
