@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 $one: #8C867B;
-$two: rgb(237, 174, 56);
-$three: #488096;
-$four: rgb(237, 239, 244);
-$five: rgb(74, 126, 92);
+$two: #EFAD43;
+$three: #284B63;
+$four: #EDF4ED;
+$five: #6A8D73;
 $six: rgb(146, 244, 180);
 
 body {
@@ -94,6 +94,15 @@ line-height: 2em;
         display: inline-block;
         vertical-align: top;
         height: 100%;
-        width: 35%;
+        .sinead-img {
+            max-width: 400px;
+        }
+    }
+    .about-description {
+        @include centerWidth();
+        width:400px;
+        p {
+            margin-top: 2em;
+        }
     }
 }

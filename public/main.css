@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-  background-color: #4a7e5c;
-  color: #edae38;
+  background-color: #6A8D73;
+  color: #EFAD43;
   font-family: 'Roboto', san-serif;
 }
 
@@ -15,11 +15,11 @@ body {
 
 .link {
   text-decoration: none;
-  color: #edeff4;
+  color: #EDF4ED;
 }
 
 .link:hover {
-  color: #edeff4;
+  color: #EDF4ED;
   text-decoration: underline;
 }
 
@@ -75,8 +75,8 @@ body {
   padding: 2em !important;
   text-align: center;
   padding: 20px;
-  background-color: #edae38 !important;
-  color: #edeff4;
+  background-color: #EFAD43 !important;
+  color: #EDF4ED;
 }
 
 @media only screen and (max-width: 768px) {
@@ -98,6 +98,20 @@ body {
   display: inline-block;
   vertical-align: top;
   height: 100%;
-  width: 35%;
+}
+
+.About div .sinead-img {
+  max-width: 400px;
+}
+
+.About .about-description {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+}
+
+.About .about-description p {
+  margin-top: 2em;
 }
 /*# sourceMappingURL=main.css.map */
