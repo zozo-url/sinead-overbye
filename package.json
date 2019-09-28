@@ -3,12 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@urql/exchange-graphcache": "^1.0.0-rc.11",
-    "graphql": "^14.5.8",
-    "graphql-tag": "^2.10.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "urql": "^1.5.0",
     "react-html-parser": "^2.0.2",
     "react-router-dom": "^5.1.0",
     "react-router-hash-link": "^1.2.2",
