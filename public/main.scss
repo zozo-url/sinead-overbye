@@ -47,11 +47,20 @@ body {
 }
 .Nav {
     text-align: center;
-    a {
-        @include nav()
+    .link-space {
+        @include nav();
+    }
+    h2 {
+        position: relative;
+        width: 50%;
+        left: 25%;
+    }
+    .nav-link {
+        border: 1px solid white;
+        width: 30%;
+        left: 40%;
     }
     .nav-title {
-        @include nav();
         font-size: 2em;
     }
 }

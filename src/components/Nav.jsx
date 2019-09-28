@@ -6,14 +6,14 @@ const Nav =  (props) =>{
     <div className="Nav">
        {props.match.url === "/about" ? 
        <div>
-        <Link to="/about" className="link" Style="text-decoration: underline"><h2>about</h2></Link>
-        <h2 className= "nav-title">sinead overbye</h2>
-        <Link to="/works" className="link"><h2>works</h2></Link>
+        <div className='link-space'><Link to="/about" className="link" Style="text-decoration: underline"><h2>about</h2></Link></div>
+        <div className='link-space'><h2 className= "nav-title">sinead overbye</h2></div>
+        <div className='link-space'><Link to="/works" className="link"><h2>works</h2></Link></div>
         </div> :
         <div>
-        <Link to="/about" className="link"><h2>about</h2></Link>
-        <h2 className= "nav-title">sinead overbye</h2>
-        <Link to="/works" className="link" Style="text-decoration: underline"><h2>works</h2></Link>
+        <div className='link-space'><Link to="/about" className="link"><h2>about</h2></Link></div>
+        <div className='link-space'><h2 className= "nav-title">sinead overbye</h2></div>
+        <div className='link-space'><Link to="/works" className="link" Style="text-decoration: underline"><h2>works</h2></Link></div>
         </div>}
     </div>
   )

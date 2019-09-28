@@ -32,14 +32,24 @@ body {
   text-align: center;
 }
 
-.Nav a {
+.Nav .link-space {
   display: inline-block;
   width: 33%;
 }
 
+.Nav h2 {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+
+.Nav .nav-link {
+  border: 1px solid white;
+  width: 30%;
+  left: 40%;
+}
+
 .Nav .nav-title {
-  display: inline-block;
-  width: 33%;
   font-size: 2em;
 }
 
