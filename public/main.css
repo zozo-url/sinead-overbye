@@ -22,10 +22,9 @@ body {
 }
 
 .link:hover {
-  color: #D33E43;
-  -webkit-transition-duration: 300ms;
-          transition-duration: 300ms;
-  text-decoration: underline;
+  color: #FFB5B7;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .Nav {
@@ -39,18 +38,11 @@ body {
 
 .Nav h2 {
   position: relative;
-  width: 50%;
-  left: 25%;
-}
-
-.Nav .nav-link {
-  border: 1px solid white;
-  width: 30%;
-  left: 40%;
 }
 
 .Nav .nav-title {
   font-size: 2em;
+  width: 100%;
 }
 
 .Works {
@@ -63,12 +55,12 @@ body {
 
 .work-list {
   width: 100%;
-  margin-top: 25vh;
+  margin-top: 10vh;
+  text-align: left;
 }
 
 .work-list h1 {
-  font-size: 3em;
-  margin-bottom: 1em;
+  font-size: 2.5em;
   letter-spacing: 0.05em;
 }
 
@@ -77,7 +69,9 @@ body {
 }
 
 .work-list p {
+  display: inline;
   font-size: 1em;
+  line-height: 1.5em;
 }
 
 .poems {
@@ -104,6 +98,7 @@ body {
   padding: 2em !important;
   text-align: center;
   padding: 20px;
+  outline: none;
   background-color: #EFAD43 !important;
   color: #EDF4ED;
 }
@@ -131,6 +126,7 @@ body {
   width: 50%;
   left: 25%;
   position: relative;
+  color: #EDF4ED;
 }
 
 .About p:first-of-type {
@@ -141,19 +137,19 @@ body {
 }
 
 .About p:last-of-type {
-  margin-top: -2.5em;
+  margin-top: -2.0em;
   line-height: 1.5em;
 }
 
 .About i {
   font-size: 2em;
-  color: #EDF4ED;
+  color: #76BDED;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
 }
 
 .About i:hover {
-  color: #D33E43;
+  color: #EDF4ED;
 }
 
 @media only screen and (max-width: 768px) {

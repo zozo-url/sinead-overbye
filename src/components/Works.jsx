@@ -16,7 +16,7 @@ const Works =  (props) =>{
       />
     <div className="Works">
       <div className="work-list">
-        <h1>works</h1>
+        <h1>Works</h1>
         {data.poems.map((poem, index) => {
           return <div>
             <Link to ={"/works#" + poem.title} className="link"><p>{poem.title}</p></Link>

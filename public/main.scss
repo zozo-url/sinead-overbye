@@ -1,14 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-$one: #D33E43;
+$one: #FFB5B7;
 $two: #EFAD43;
-$three: #284B63;
+$three: #76BDED;
 $four: #EDF4ED;
 $five: #6A8D73;
 $six: rgb(146, 244, 180);
-
 $space: 0.05em;
 $no-space: 0em;
-
 
 body {
     margin: 0px;
@@ -37,8 +35,7 @@ body {
     color: $four;
     &:hover {
         color: $one;
-        transition-duration: 300ms;
-        text-decoration: underline;
+        transition-duration: 100ms;
     }
 }
 @mixin nav () {
@@ -52,16 +49,10 @@ body {
     }
     h2 {
         position: relative;
-        width: 50%;
-        left: 25%;
-    }
-    .nav-link {
-        border: 1px solid white;
-        width: 30%;
-        left: 40%;
     }
     .nav-title {
         font-size: 2em;
+        width:100%;
     }
 }
 
@@ -71,19 +62,20 @@ body {
     width: 65%;
 }
 .work-list {
-    // border: 1px solid black;
     width: 100%;
-    margin-top: 25vh;
+    margin-top: 10vh;
+    text-align: left;
     h1 {
-        font-size: 3em;
-        margin-bottom: 1em;
+        font-size: 2.5em;
         letter-spacing: $space;
     }
     div:last-of-type {
         margin-bottom: 50vh;
     }
     p {
+        display: inline;
         font-size: 1em;
+        line-height: 1.5em;
         }
 }
 .poems {
@@ -106,6 +98,7 @@ h1 {
     padding: 2em !important;
     text-align: center;
     padding: 20px;
+    outline:none;
     background-color: $two !important;
     color: $four;
 }
@@ -129,6 +122,7 @@ h1 {
         width: 50%;
         left: 25%;
         position: relative;
+        color: $four;
         &:first-of-type {
             width: 70%;
             left: 15%;
@@ -136,16 +130,16 @@ h1 {
             margin-top: -0.17em;
         }
         &:last-of-type {
-            margin-top: -2.5em;
+            margin-top: -2.0em;
             line-height: 1.5em;
         }
     }
     i {
         font-size: 2em;
-        color: $four;
+        color: $three;
         transition-duration: 300ms;
         &:hover {
-            color: $one;
+            color: $four;
         }
     }
 }
