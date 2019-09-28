@@ -16,12 +16,12 @@ body {
   position: fixed;
 }
 
-.link {
+.Home a {
   text-decoration: none;
   color: #EDF4ED;
 }
 
-.link:hover {
+.Home a:hover {
   color: #FFB5B7;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
@@ -37,6 +37,17 @@ body {
   width: 33%;
 }
 
+.Nav .link {
+  text-decoration: none;
+  color: #EDF4ED;
+}
+
+.Nav .link:hover {
+  color: #FFB5B7;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
 .Nav h2 {
   position: relative;
   display: inline;
@@ -45,6 +56,12 @@ body {
 .Nav .nav-link {
   text-decoration: none;
   color: #EFAD43;
+}
+
+.Nav .nav-link:hover {
+  color: #EFAD43;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .Nav .nav-title {
@@ -63,7 +80,7 @@ body {
 
 .work-list {
   width: 100%;
-  margin-top: 10vh;
+  margin-top: 15vh;
   text-align: left;
 }
 
@@ -74,6 +91,17 @@ body {
 
 .work-list div:last-of-type {
   margin-bottom: 50vh;
+}
+
+.work-list a {
+  text-decoration: none;
+  color: #EDF4ED;
+}
+
+.work-list a:hover {
+  color: #FFB5B7;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .work-list p {
@@ -88,6 +116,18 @@ body {
 
 .poems h1 {
   letter-spacing: 0.05em;
+}
+
+.poems a {
+  text-decoration: none;
+  color: #EFAD43;
+  text-decoration: underline;
+}
+
+.poems a:hover {
+  color: #EDF4ED;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
 }
 
 .poems .poem {

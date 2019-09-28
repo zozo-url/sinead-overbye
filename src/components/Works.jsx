@@ -30,7 +30,8 @@ const Works =  (props) =>{
               <p><br/></p>
             <div>
               <h1>{poem.title}</h1>
-              <p>{poem.publisher}, {poem.year}</p>
+              <p><a href= {poem.url} className='link'>{poem.publisher}</a>, {poem.year}</p>
+              {poem.award &&<p>{poem.award}</p>}
               <br/>
               <p className="poem">{ReactHtmlParser(poem.poem)}</p>
             </div>
