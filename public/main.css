@@ -29,6 +29,7 @@ body {
 
 .Nav {
   text-align: center;
+  margin-top: 2em;
 }
 
 .Nav .link-space {
@@ -38,11 +39,12 @@ body {
 
 .Nav h2 {
   position: relative;
+  display: inline;
 }
 
 .Nav .nav-title {
   font-size: 2em;
-  width: 100%;
+  display: inline;
 }
 
 .Works {
@@ -117,7 +119,7 @@ body {
 
 .About img {
   max-width: 30%;
-  margin: 1em 0em -1em 0em;
+  margin: 2em 0em -1em 0em;
   padding-left: 5em;
 }
 

@@ -44,15 +44,17 @@ body {
 }
 .Nav {
     text-align: center;
+    margin-top: 2em;
     .link-space {
         @include nav();
     }
     h2 {
         position: relative;
+        display: inline;
     }
     .nav-title {
         font-size: 2em;
-        width:100%;
+        display: inline;
     }
 }
 
@@ -114,7 +116,7 @@ h1 {
     line-height: 2.5em;
     img {
         max-width: 30%;
-        margin: 1em 0em -1em 0em;
+        margin: 2em 0em -1em 0em;
         padding-left: 5em;
     }
     p {        
