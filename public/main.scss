@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-$one: #8C867B;
+$one: #D33E43;
 $two: #EFAD43;
 $three: #284B63;
 $four: #EDF4ED;
@@ -11,6 +11,8 @@ $no-space: 0em;
 
 
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: $five;
     color: $two;
     font-family: 'Roboto', san-serif;
@@ -34,7 +36,8 @@ body {
     text-decoration: none;
     color: $four;
     &:hover {
-        color: $four;
+        color: $one;
+        transition-duration: 300ms;
         text-decoration: underline;
     }
 }
@@ -83,7 +86,7 @@ h1 {
     color: $four;
     line-height: 2.5em;
     p:last-of-type {
-        margin-bottom: 25vh;
+        margin-bottom: 15vh;
      }
 } 
 }
@@ -104,23 +107,46 @@ h1 {
 }
 
 .About {
-    @include centerWidth();
-    margin-top: 5%;
-    width: 100%;
-    height: 70vh;
-    div {
-        display: inline-block;
-        vertical-align: top;
-        height: 100%;
-        .sinead-img {
-            max-width: 400px;
+    position: absolute;
+    text-align: center;
+    line-height: 2.5em;
+    img {
+        max-width: 30%;
+        margin: 1em 0em -1em 0em;
+        padding-left: 5em;
+    }
+    p {        
+        text-align: left;
+        width: 50%;
+        left: 25%;
+        position: relative;
+        &:first-of-type {
+            width: 70%;
+            left: 15%;
+            font-size: 2.5em;
+            margin-top: -0.17em;
+        }
+        &:last-of-type {
+            margin-top: -2.5em;
+            line-height: 1.5em;
         }
     }
-    .about-description {
-        @include centerWidth();
-        width:400px;
-        p {
-            margin-top: 2em;
+    i {
+        font-size: 2em;
+        color: $four;
+        transition-duration: 300ms;
+        &:hover {
+            color: $one;
         }
     }
+}
+@media only screen and (max-width: 768px) {
+.About {
+    img {
+        max-width: 60%;
+    }
+    p:first-of-type {
+        margin-top: -0.3em;
+    }
+}
 }
