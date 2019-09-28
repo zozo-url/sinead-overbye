@@ -102,6 +102,33 @@
       "url": ""
     }
   ],
-  "otherProjects": {},
-  "upcommingProjects": {}
+  "otherProjects": [
+    {
+      "id": "1",
+      "projectName": "French Girls zine (2017) [physical copy only]",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "projectName": "Hinemoana zine (2019) [physical copy only]",
+      "url": ""
+    },
+    {
+      "id": "3",
+      "projectName": "Artworks—French Girls and Swimmers series’",
+      "url": "https://www.instagram.com/applecarcassart/"
+    }
+  ],
+  "upcommingProjects": [
+    {
+      "id": "1",
+      "projectName": "Once Were Writers Podcast with Michelle Rahurahu Scott",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "projectName": "GIRLZ GIRLZ GIRLZ zine with Rebecca Hawkes and Joy Holley",
+      "url": ""
+    }
+  ]
 }
