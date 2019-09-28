@@ -8,6 +8,7 @@ body {
 .Home {
   width: 50%;
   margin: 0 auto;
+  text-align: center;
   width: 100%;
   position: fixed;
 }
@@ -37,6 +38,7 @@ body {
 .Works {
   width: 50%;
   margin: 0 auto;
+  text-align: center;
   width: 65%;
 }
 
@@ -59,7 +61,12 @@ body {
 }
 
 .poems {
-  line-height: 2em;
+  text-align: left;
+  line-height: 3em;
+}
+
+.poems .poem {
+  color: #EDF4ED;
 }
 
 .poems .poem p:last-of-type {
@@ -86,6 +93,7 @@ body {
 .About {
   width: 50%;
   margin: 0 auto;
+  text-align: center;
   margin-top: 5%;
   width: 100%;
   height: 70vh;

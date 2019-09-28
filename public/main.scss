@@ -15,6 +15,7 @@ body {
 @mixin centerWidth () {
     width: 50%;
     margin: 0 auto;
+    text-align: center;
     }
 
     
@@ -63,10 +64,14 @@ body {
         }
 }
 .poems {
-line-height: 2em;
-.poem p:last-of-type {
-   margin-bottom: 25vh;
-}
+    text-align: left;
+line-height: 3em;
+.poem {
+    color: $four;
+    p:last-of-type {
+        margin-bottom: 25vh;
+     }
+} 
 }
 .scroll-up-button {
     width:5%;
