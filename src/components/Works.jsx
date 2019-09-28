@@ -31,6 +31,7 @@ const Works =  (props) =>{
             <div>
               <h1>{poem.title}</h1>
               <p>{poem.publisher}, {poem.year}</p>
+              <br/>
               <p className="poem">{ReactHtmlParser(poem.poem)}</p>
             </div>
         </div>

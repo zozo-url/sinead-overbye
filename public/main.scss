@@ -6,10 +6,15 @@ $four: #EDF4ED;
 $five: #6A8D73;
 $six: rgb(146, 244, 180);
 
+$space: 0.05em;
+$no-space: 0em;
+
+
 body {
     background-color: $five;
     color: $two;
     font-family: 'Roboto', san-serif;
+    letter-spacing: $space;
 }
 
 @mixin centerWidth () {
@@ -33,21 +38,23 @@ body {
         text-decoration: underline;
     }
 }
-
+@mixin nav () {
+    display: inline-block;
+    width: 33%;
+}
 .Nav {
-    // border: 1px solid white;
     text-align: center;
     a {
-        border: 1px solid white;
-        display: inline-block;
-        width: 29%;
+        @include nav()
     }
-    a:nth-of-type(2) {
-        // margin-left: 50%;
+    .nav-title {
+        @include nav();
+        font-size: 2em;
     }
 }
 
 .Works {
+    letter-spacing: $no-space;
     @include centerWidth();
     width: 65%;
 }
@@ -58,6 +65,7 @@ body {
     h1 {
         font-size: 3em;
         margin-bottom: 1em;
+        letter-spacing: $space;
     }
     div:last-of-type {
         margin-bottom: 50vh;
@@ -67,10 +75,13 @@ body {
         }
 }
 .poems {
-    text-align: left;
-line-height: 3em;
+text-align: left;
+h1 {
+    letter-spacing: $space;
+}
 .poem {
     color: $four;
+    line-height: 2.5em;
     p:last-of-type {
         margin-bottom: 25vh;
      }

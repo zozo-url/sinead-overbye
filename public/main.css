@@ -3,6 +3,7 @@ body {
   background-color: #6A8D73;
   color: #EFAD43;
   font-family: 'Roboto', san-serif;
+  letter-spacing: 0.05em;
 }
 
 .Home {
@@ -28,12 +29,18 @@ body {
 }
 
 .Nav a {
-  border: 1px solid white;
   display: inline-block;
-  width: 29%;
+  width: 33%;
+}
+
+.Nav .nav-title {
+  display: inline-block;
+  width: 33%;
+  font-size: 2em;
 }
 
 .Works {
+  letter-spacing: 0em;
   width: 50%;
   margin: 0 auto;
   text-align: center;
@@ -48,6 +55,7 @@ body {
 .work-list h1 {
   font-size: 3em;
   margin-bottom: 1em;
+  letter-spacing: 0.05em;
 }
 
 .work-list div:last-of-type {
@@ -60,11 +68,15 @@ body {
 
 .poems {
   text-align: left;
-  line-height: 3em;
+}
+
+.poems h1 {
+  letter-spacing: 0.05em;
 }
 
 .poems .poem {
   color: #EDF4ED;
+  line-height: 2.5em;
 }
 
 .poems .poem p:last-of-type {
