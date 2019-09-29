@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+1p);
+@import url(https://fonts.googleapis.com/css?family=Archivo:regular);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular);
 $one: #FFB5B7;
 $two: #EFAD43;
 $three: #76BDED;
@@ -13,7 +16,7 @@ body {
     padding: 0px;
     background-color: $five;
     color: $two;
-    font-family: 'Roboto', san-serif;
+    font-family: 'IBM Plex Sans', san-serif;
     letter-spacing: $space;
 }
 

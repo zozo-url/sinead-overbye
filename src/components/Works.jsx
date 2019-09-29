@@ -24,7 +24,7 @@ const Works =  (props) =>{
         })}
       </div>
         <div className="poems">
-        {data.poems.reverse().map((poem, index) => {
+        {data.poems.map((poem, index) => {
             return <div>
               <p id={poem.title}></p>
               <p><br/></p>
