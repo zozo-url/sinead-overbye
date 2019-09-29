@@ -32,7 +32,7 @@ const Works = props => {
                   to={"/works#" + poem.title}
                   onClick={poem => {
                     setSelectedPoem(index);
-                    scroll.scrollTo(980);
+                    scroll.scrollTo(920);
                   }}
                   className="link"
                 >

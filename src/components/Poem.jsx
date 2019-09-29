@@ -5,7 +5,7 @@ import data from "../poems.json";
 export default function Poem({ selectedPoem }) {
   return (
     <div className="poems">
-      <div className="poem">
+      <div>
         <p className id={data.poems[selectedPoem].title}></p>
         <p>
           <br />
@@ -13,10 +13,16 @@ export default function Poem({ selectedPoem }) {
         <div>
           <h1>{data.poems[selectedPoem].title}</h1>
           <p>
-            {data.poems[selectedPoem].publisher} {data.poems[selectedPoem].year}
+            <a href={data.poems[selectedPoem].url} className="link">
+              {data.poems[selectedPoem].publisher}
+            </a>
+            , {data.poems[selectedPoem].year}
           </p>
+          {data.poems[selectedPoem].award && (
+            <p>{data.poems[selectedPoem].award}</p>
+          )}
           <br />
-          <p className="selectedPoem">
+          <p className="poem">
             {ReactHtmlParser(data.poems[selectedPoem].poem)}
           </p>
         </div>
