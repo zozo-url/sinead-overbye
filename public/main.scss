@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+1p);
+@import url(https://fonts.googleapis.com/css?family=Archivo:regular);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular);
 $one: #FFB5B7;
 $two: #EFAD43;
 $three: #76BDED;
@@ -13,7 +16,7 @@ body {
     padding: 0px;
     background-color: $five;
     color: $two;
-    font-family: 'Roboto', san-serif;
+    font-family: 'IBM Plex Sans', san-serif;
     letter-spacing: $space;
 }
 
@@ -22,20 +25,21 @@ body {
     margin: 0 auto;
     text-align: center;
     }
-
+    @mixin link ($mainColor, $hoverColor) {
+        text-decoration: none;
+        color: $mainColor;
+        &:hover {
+            color: $hoverColor;
+            transition-duration: 100ms;
+        }
+    }
     
 .Home {
     @include centerWidth();
     width: 100%;
     position: fixed;
-}
-
-.link {
-    text-decoration: none;
-    color: $four;
-    &:hover {
-        color: $one;
-        transition-duration: 100ms;
+    a {
+        @include link ($four, $one)
     }
 }
 @mixin nav () {
@@ -48,13 +52,20 @@ body {
     .link-space {
         @include nav();
     }
+    .link {
+        @include link($four, $one);
+    }
     h2 {
         position: relative;
         display: inline;
     }
+.nav-link {
+    @include link($two, $two);
+}
     .nav-title {
         font-size: 2em;
         display: inline;
+        text-decoration: none;
     }
 }
 
@@ -65,7 +76,7 @@ body {
 }
 .work-list {
     width: 100%;
-    margin-top: 10vh;
+    margin-top: 15vh;
     text-align: left;
     h1 {
         font-size: 2.5em;
@@ -73,6 +84,9 @@ body {
     }
     div:last-of-type {
         margin-bottom: 50vh;
+    }
+    a {
+        @include link($four, $one);
     }
     p {
         display: inline;
@@ -84,6 +98,10 @@ body {
 text-align: left;
 h1 {
     letter-spacing: $space;
+}
+a {
+    @include link($two, $four);
+    text-decoration: underline;
 }
 .poem {
     color: $four;
