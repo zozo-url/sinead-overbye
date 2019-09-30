@@ -5,9 +5,9 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #6A8D73;
-  color: #EFAD43;
-  font-family: 'IBM Plex Sans', san-serif;
+  background-color: #737489;
+  color: #ff9ea9;
+  font-family: "IBM Plex Sans", san-serif;
   letter-spacing: 0.05em;
 }
 
@@ -21,11 +21,11 @@ body {
 
 .Home a {
   text-decoration: none;
-  color: #EDF4ED;
+  color: #b7e1ff;
 }
 
 .Home a:hover {
-  color: #FFB5B7;
+  color: #202806;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
 }
@@ -42,11 +42,11 @@ body {
 
 .Nav .link {
   text-decoration: none;
-  color: #EDF4ED;
+  color: #b7e1ff;
 }
 
 .Nav .link:hover {
-  color: #FFB5B7;
+  color: #202806;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
 }
@@ -58,11 +58,11 @@ body {
 
 .Nav .nav-link {
   text-decoration: none;
-  color: #EFAD43;
+  color: #ff9ea9;
 }
 
 .Nav .nav-link:hover {
-  color: #EFAD43;
+  color: #ff9ea9;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
 }
@@ -71,6 +71,7 @@ body {
   font-size: 2em;
   display: inline;
   text-decoration: none;
+  color: #ff9ea9;
 }
 
 .Works {
@@ -98,11 +99,11 @@ body {
 
 .work-list a {
   text-decoration: none;
-  color: #EDF4ED;
+  color: #b7e1ff;
 }
 
 .work-list a:hover {
-  color: #FFB5B7;
+  color: #202806;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
 }
@@ -123,18 +124,18 @@ body {
 
 .poems a {
   text-decoration: none;
-  color: #EFAD43;
+  color: #ff9ea9;
   text-decoration: underline;
 }
 
 .poems a:hover {
-  color: #EDF4ED;
+  color: #b7e1ff;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
 }
 
 .poems .poem {
-  color: #EDF4ED;
+  color: #b7e1ff;
   line-height: 2.5em;
 }
 
@@ -150,8 +151,8 @@ body {
   text-align: center;
   padding: 20px;
   outline: none;
-  background-color: #EFAD43 !important;
-  color: #EDF4ED;
+  background-color: #ff9ea9 !important;
+  color: #b7e1ff;
 }
 
 @media only screen and (max-width: 768px) {
@@ -167,7 +168,6 @@ body {
 }
 
 .About img {
-  max-width: 30%;
   margin: 2em 0em -1em 0em;
   padding-left: 5em;
 }
@@ -177,7 +177,7 @@ body {
   width: 50%;
   left: 25%;
   position: relative;
-  color: #EDF4ED;
+  color: #b7e1ff;
 }
 
 .About p:first-of-type {
@@ -188,24 +188,31 @@ body {
 }
 
 .About p:last-of-type {
-  margin-top: -2.0em;
+  margin-top: -2em;
   line-height: 1.5em;
 }
 
 .About i {
   font-size: 2em;
-  color: #76BDED;
+  color: #82a0b5;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
 }
 
 .About i:hover {
-  color: #EDF4ED;
+  color: #b7e1ff;
 }
 
 @media only screen and (max-width: 768px) {
   .About img {
-    max-width: 60%;
+    padding-left: 0;
+    max-width: 90%;
+    height: auto;
+  }
+  .About p {
+    margin-left: 0;
+    left: 5%;
+    width: 90%;
   }
   .About p:first-of-type {
     margin-top: -0.3em;

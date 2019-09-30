@@ -12,7 +12,7 @@ import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import Poem from "./Poem";
 
 const Works = props => {
-  const [selectedPoem, setSelectedPoem] = useState(0);
+  const [selectedPoem, setSelectedPoem] = useState(-1);
   return (
     <div>
       <ScrollUpButton
@@ -42,9 +42,7 @@ const Works = props => {
             );
           })}
         </div>
-        <Element name="poemStart" className="element">
-          <Poem selectedPoem={selectedPoem}></Poem>
-        </Element>
+        <Poem selectedPoem={selectedPoem}></Poem>
       </div>
     </div>
   );

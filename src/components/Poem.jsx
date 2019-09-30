@@ -3,7 +3,7 @@ import ReactHtmlParser from "react-html-parser";
 import data from "../poems.json";
 
 export default function Poem({ selectedPoem }) {
-  return (
+  return data.poems[selectedPoem] ? (
     <div className="poems">
       <div>
         <p className id={data.poems[selectedPoem].title}></p>
@@ -28,5 +28,5 @@ export default function Poem({ selectedPoem }) {
         </div>
       </div>
     </div>
-  );
+  ) : null;
 }
