@@ -126,7 +126,7 @@ body {
 }
 
 .poems a:hover {
-  color: #b7e1ff;
+  color: #050001;
   -webkit-transition-duration: 100ms;
           transition-duration: 100ms;
 }

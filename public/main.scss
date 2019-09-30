@@ -99,7 +99,7 @@ body {
     letter-spacing: $space;
   }
   a {
-    @include link($two, $four);
+    @include link($two, darken($two, 80%));
     text-decoration: underline;
   }
   .poem {
