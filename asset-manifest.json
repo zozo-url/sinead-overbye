@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/sinead-overbye/static/js/main.fc85cd04.chunk.js",
+    "main.js.map": "/sinead-overbye/static/js/main.fc85cd04.chunk.js.map",
+    "runtime-main.js": "/sinead-overbye/static/js/runtime-main.494ae2d1.js",
+    "runtime-main.js.map": "/sinead-overbye/static/js/runtime-main.494ae2d1.js.map",
+    "static/css/2.b95f6846.chunk.css": "/sinead-overbye/static/css/2.b95f6846.chunk.css",
+    "static/js/2.bb5af5d8.chunk.js": "/sinead-overbye/static/js/2.bb5af5d8.chunk.js",
+    "static/js/2.bb5af5d8.chunk.js.map": "/sinead-overbye/static/js/2.bb5af5d8.chunk.js.map",
+    "index.html": "/sinead-overbye/index.html",
+    "precache-manifest.e6675f75cf3b52894e07a26d1adc4f60.js": "/sinead-overbye/precache-manifest.e6675f75cf3b52894e07a26d1adc4f60.js",
+    "service-worker.js": "/sinead-overbye/service-worker.js",
+    "static/css/2.b95f6846.chunk.css.map": "/sinead-overbye/static/css/2.b95f6846.chunk.css.map",
+    "static/media/font-awesome.min.css": "/sinead-overbye/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/sss.jpg": "/sinead-overbye/static/media/sss.636df72f.jpg"
+  }
+}

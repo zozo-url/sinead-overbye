@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+1p);
+@import url(https://fonts.googleapis.com/css?family=Archivo:regular);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular);
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #6A8D73;
+  color: #EFAD43;
+  font-family: 'IBM Plex Sans', san-serif;
+  letter-spacing: 0.05em;
+}
+
+.Home {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+}
+
+.Home a {
+  text-decoration: none;
+  color: #EDF4ED;
+}
+
+.Home a:hover {
+  color: #FFB5B7;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.Nav {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.Nav .link-space {
+  display: inline-block;
+  width: 33%;
+}
+
+.Nav .link {
+  text-decoration: none;
+  color: #EDF4ED;
+}
+
+.Nav .link:hover {
+  color: #FFB5B7;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.Nav h2 {
+  position: relative;
+  display: inline;
+}
+
+.Nav .nav-link {
+  text-decoration: none;
+  color: #EFAD43;
+}
+
+.Nav .nav-link:hover {
+  color: #EFAD43;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.Nav .nav-title {
+  font-size: 2em;
+  display: inline;
+  text-decoration: none;
+}
+
+.Works {
+  letter-spacing: 0em;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 65%;
+}
+
+.work-list {
+  width: 100%;
+  margin-top: 15vh;
+  text-align: left;
+}
+
+.work-list h1 {
+  font-size: 2.5em;
+  letter-spacing: 0.05em;
+}
+
+.work-list div:last-of-type {
+  margin-bottom: 50vh;
+}
+
+.work-list a {
+  text-decoration: none;
+  color: #EDF4ED;
+}
+
+.work-list a:hover {
+  color: #FFB5B7;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.work-list p {
+  display: inline;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.poems {
+  text-align: left;
+}
+
+.poems h1 {
+  letter-spacing: 0.05em;
+}
+
+.poems a {
+  text-decoration: none;
+  color: #EFAD43;
+  text-decoration: underline;
+}
+
+.poems a:hover {
+  color: #EDF4ED;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.poems .poem {
+  color: #EDF4ED;
+  line-height: 2.5em;
+}
+
+.poems .poem p:last-of-type {
+  margin-bottom: 15vh;
+}
+
+.scroll-up-button {
+  width: 5%;
+  border-radius: 100px;
+  margin: 4em;
+  padding: 2em !important;
+  text-align: center;
+  padding: 20px;
+  outline: none;
+  background-color: #EFAD43 !important;
+  color: #EDF4ED;
+}
+
+@media only screen and (max-width: 768px) {
+  .Works {
+    width: 75%;
+  }
+}
+
+.About {
+  position: absolute;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.About img {
+  max-width: 30%;
+  margin: 2em 0em -1em 0em;
+  padding-left: 5em;
+}
+
+.About p {
+  text-align: left;
+  width: 50%;
+  left: 25%;
+  position: relative;
+  color: #EDF4ED;
+}
+
+.About p:first-of-type {
+  width: 70%;
+  left: 15%;
+  font-size: 2.5em;
+  margin-top: -0.17em;
+}
+
+.About p:last-of-type {
+  margin-top: -2.0em;
+  line-height: 1.5em;
+}
+
+.About i {
+  font-size: 2em;
+  color: #76BDED;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.About i:hover {
+  color: #EDF4ED;
+}
+
+@media only screen and (max-width: 768px) {
+  .About img {
+    max-width: 60%;
+  }
+  .About p:first-of-type {
+    margin-top: -0.3em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
