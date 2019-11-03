@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sinead-overbye/precache-manifest.e6675f75cf3b52894e07a26d1adc4f60.js"
+  "/sinead-overbye/precache-manifest.12add9008a42b86f213db50b22ff2576.js"
 );
 
 self.addEventListener('message', (event) => {
