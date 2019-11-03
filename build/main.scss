@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+1p);
+@import url(https://fonts.googleapis.com/css?family=Archivo:regular);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular);
+$one: #FFB5B7;
+$two: #EFAD43;
+$three: #76BDED;
+$four: #EDF4ED;
+$five: #6A8D73;
+$six: rgb(146, 244, 180);
+$space: 0.05em;
+$no-space: 0em;
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: $five;
+    color: $two;
+    font-family: 'IBM Plex Sans', san-serif;
+    letter-spacing: $space;
+}
+
+@mixin centerWidth () {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    }
+    @mixin link ($mainColor, $hoverColor) {
+        text-decoration: none;
+        color: $mainColor;
+        &:hover {
+            color: $hoverColor;
+            transition-duration: 100ms;
+        }
+    }
+    
+.Home {
+    @include centerWidth();
+    width: 100%;
+    position: fixed;
+    a {
+        @include link ($four, $one)
+    }
+}
+@mixin nav () {
+    display: inline-block;
+    width: 33%;
+}
+.Nav {
+    text-align: center;
+    margin-top: 2em;
+    .link-space {
+        @include nav();
+    }
+    .link {
+        @include link($four, $one);
+    }
+    h2 {
+        position: relative;
+        display: inline;
+    }
+.nav-link {
+    @include link($two, $two);
+}
+    .nav-title {
+        font-size: 2em;
+        display: inline;
+        text-decoration: none;
+    }
+}
+
+.Works {
+    letter-spacing: $no-space;
+    @include centerWidth();
+    width: 65%;
+}
+.work-list {
+    width: 100%;
+    margin-top: 15vh;
+    text-align: left;
+    h1 {
+        font-size: 2.5em;
+        letter-spacing: $space;
+    }
+    div:last-of-type {
+        margin-bottom: 50vh;
+    }
+    a {
+        @include link($four, $one);
+    }
+    p {
+        display: inline;
+        font-size: 1em;
+        line-height: 1.5em;
+        }
+}
+.poems {
+text-align: left;
+h1 {
+    letter-spacing: $space;
+}
+a {
+    @include link($two, $four);
+    text-decoration: underline;
+}
+.poem {
+    color: $four;
+    line-height: 2.5em;
+    p:last-of-type {
+        margin-bottom: 15vh;
+     }
+} 
+}
+.scroll-up-button {
+    width:5%;
+    border-radius: 100px;
+    margin: 4em;
+    padding: 2em !important;
+    text-align: center;
+    padding: 20px;
+    outline:none;
+    background-color: $two !important;
+    color: $four;
+}
+@media only screen and (max-width: 768px) {
+    .Works {
+        width: 75%;
+    }
+}
+
+.About {
+    position: absolute;
+    text-align: center;
+    line-height: 2.5em;
+    img {
+        max-width: 30%;
+        margin: 2em 0em -1em 0em;
+        padding-left: 5em;
+    }
+    p {        
+        text-align: left;
+        width: 50%;
+        left: 25%;
+        position: relative;
+        color: $four;
+        &:first-of-type {
+            width: 70%;
+            left: 15%;
+            font-size: 2.5em;
+            margin-top: -0.17em;
+        }
+        &:last-of-type {
+            margin-top: -2.0em;
+            line-height: 1.5em;
+        }
+    }
+    i {
+        font-size: 2em;
+        color: $three;
+        transition-duration: 300ms;
+        &:hover {
+            color: $four;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+.About {
+    img {
+        max-width: 60%;
+    }
+    p:first-of-type {
+        margin-top: -0.3em;
+    }
+}
+}
